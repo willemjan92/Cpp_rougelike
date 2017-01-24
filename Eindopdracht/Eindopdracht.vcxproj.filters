@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Kamers">
+      <UniqueIdentifier>{c40aed1e-6ada-49c8-83d2-6e5f30ca3e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kamers">
+      <UniqueIdentifier>{8b738a2d-b5b6-4fe2-a595-c540956c7e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vijand">
+      <UniqueIdentifier>{90394476-ed3a-48b3-84de-005dd60dc0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vijand">
+      <UniqueIdentifier>{cbdc5896-4247-4605-aa82-74aacb2f348d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kamer.cpp">
+      <Filter>Source Files\Kamers</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Speler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Eindopdracht.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Source Files\Kamers</Filter>
+    </ClCompile>
+    <ClCompile Include="BossKamer.cpp">
+      <Filter>Source Files\Kamers</Filter>
+    </ClCompile>
+    <ClCompile Include="Array3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Kamers</Filter>
+    </ClCompile>
+    <ClCompile Include="Vijand.cpp">
+      <Filter>Source Files\Vijand</Filter>
+    </ClCompile>
+    <ClCompile Include="VijandFactory.cpp">
+      <Filter>Source Files\Vijand</Filter>
+    </ClCompile>
+    <ClCompile Include="KamerFactory.cpp">
+      <Filter>Source Files\Kamers</Filter>
+    </ClCompile>
+    <ClCompile Include="GaCommando.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZieCommando.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dungeon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Speler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kamer.h">
+      <Filter>Header Files\Kamers</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Header Files\Kamers</Filter>
+    </ClInclude>
+    <ClInclude Include="BossKamer.h">
+      <Filter>Header Files\Kamers</Filter>
+    </ClInclude>
+    <ClInclude Include="Array3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Kamers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vijand.h">
+      <Filter>Header Files\Vijand</Filter>
+    </ClInclude>
+    <ClInclude Include="VijandFactory.h">
+      <Filter>Header Files\Vijand</Filter>
+    </ClInclude>
+    <ClInclude Include="VijandType.h">
+      <Filter>Header Files\Vijand</Filter>
+    </ClInclude>
+    <ClInclude Include="richting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KamerFactory.h">
+      <Filter>Header Files\Kamers</Filter>
+    </ClInclude>
+    <ClInclude Include="GaCommando.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZieCommando.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\monsters.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
