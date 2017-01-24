@@ -3,7 +3,7 @@
 #include "Dungeon.h"
 #include "GaCommando.h"
 #include "ZieCommando.h"
-#include "vld.h"
+//#include "vld.h"
 
 class Main
 {

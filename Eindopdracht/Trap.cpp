@@ -9,7 +9,7 @@ Trap::Trap()
 {
 }
 
-string Trap::getMapIcon() {
+string Trap::GetMapIcon() {
 	return "S";
 }
 

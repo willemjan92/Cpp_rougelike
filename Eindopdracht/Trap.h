@@ -8,7 +8,7 @@ class Trap : public Kamer
 public:
 	Trap(Level*, int, int, Vijand*);
 	Trap();
-	string getMapIcon();
+	string GetMapIcon();
 	Kamer * GetBuurKamer(Richting richting);
 	void ZetBuurKamer(Kamer * kamer, Richting richting);
 	~Trap();
